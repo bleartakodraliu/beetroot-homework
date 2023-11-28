@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+/* nav */
+body {
+  background: #fff;
+}
+.flex-container {
+  padding: 0 145px;
+}
+/* NAVBAR */
+
+.navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 78px;
+}
+.logo img {
+  width: 187px;
+  height: 32px;
+}
+.navLinks {
+  margin: 0 10px;
+}
+.btn {
+  width: 102px;
+  height: 46px;
+}
+.btnSignIN {
+  color: #173a56 !important;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  background-color: #fff;
+  margin-left: 35px;
+}
+.btnSignUP {
+  width: 110px !important;
+  border-radius: 4px;
+  background-color: #f90;
+  border: none;
+  margin-left: 14px;
+}
+
+/* HEADER */
+.header {
+  height: 496px;
+  display: flex;
+  margin-top: 40px;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-style {
+  width: 518px;
+  color: #2f281e;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-style {
+  width: 458px;
+}
+
+.header-btn {
+  width: 175px;
+  height: 53px;
+  flex-shrink: 0;
+  border: none;
+}
+.btn-get-started {
+  border-radius: 4px;
+  background: #f90;
+}
+.btn-watch {
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.btn-watch-name {
+  padding-left: 5px;
+  color: #f90;
+  text-decoration-line: underline;
+}
+.header-button-container {
+  display: flex;
+  width: 366px;
+  height: 53px;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+.header-photo {
+  width: 605px;
+  height: 496px;
+  flex-shrink: 0;
+}
+/* features */
+.features {
+  margin-top: 100px;
+  height: 543px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start !important;
+}
+.features-title-container {
+  width: 539px;
+  align-items: center;
+  text-align: center;
+}
+
+.features-cards {
+  width: 1095px;
+  height: 204px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  width: 240px;
+  height: 178px;
+  flex-shrink: 0;
+}
+
+.features-btn {
+  width: 175px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f90;
+  border: none;
+  margin-top: 60px;
+}
+
+/* main */
+.main {
+  margin-top: 120px;
+  width: 1110px;
+  height: auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main-description {
+  width: 486px;
+  height: auto;
+  flex-shrink: 0;
+}
+.main-photo {
+  width: 532.615px;
+  height: 520.035px;
+  flex-shrink: 0;
+}
+.main-icon-and-text-container {
+  margin-top: 30px;
+  display: flex;
+}
+.main-dectription-text {
+  padding-left: 20px;
+}
+
+/* FOOTER */
+.footer {
+  border-top: 1px solid #bcd0e5;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  height: 308px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 187px;
+  height: 28.973px;
+  flex-shrink: 0;
+  padding-top: 105px;
+}
+.footer-links {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 35%;
+}
+.footer-links-container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.footer-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.footer-input {
+  width: 325px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  background: #fff;
+  margin-bottom: 21px;
+}
+.footer-button {
+  width: 131px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f90;
+  border: none;
+}
+
+/* GLOBAL CSS */
+
+/* TEXT FONTS */
+.title {
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+}
+.medium-title {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.small-title {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.descriptions-text {
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.small-descriptions-text {
+  color: #544837;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* BUTTON TEXT FONT */
+.btn-text-bold {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btn-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.link-text {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: none;
+}
+.margin-none {
+  margin: 0px !important;
+}
